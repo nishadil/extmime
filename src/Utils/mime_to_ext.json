@@ -1,0 +1,309 @@
+{
+    "application/json": [
+      ".json"
+    ],
+    "text/plain": [
+      ".txt",
+      ".text",
+      ".md"
+    ],
+    "text/html": [
+      ".html",
+      ".htm"
+    ],
+    "application/xml": [
+      ".xml"
+    ],
+    "image/jpeg": [
+      ".jpg",
+      ".jpeg"
+    ],
+    "image/png": [
+      ".png"
+    ],
+    "image/gif": [
+      ".gif"
+    ],
+    "image/bmp": [
+      ".bmp"
+    ],
+    "image/webp": [
+      ".webp"
+    ],
+    "audio/mpeg": [
+      ".mp3",
+      ".mpeg"
+    ],
+    "audio/wav": [
+      ".wav"
+    ],
+    "audio/ogg": [
+      ".ogg"
+    ],
+    "video/mp4": [
+      ".mp4",
+      ".m4v"
+    ],
+    "video/webm": [
+      ".webm"
+    ],
+    "application/pdf": [
+      ".pdf"
+    ],
+    "application/zip": [
+      ".zip"
+    ],
+    "application/x-msdownload": [
+      ".exe"
+    ],
+    "application/vnd.openxmlformats-officedocument.wordprocessingml.document": [
+      ".docx"
+    ],
+    "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet": [
+      ".xlsx"
+    ],
+    "application/vnd.openxmlformats-officedocument.presentationml.presentation": [
+      ".pptx"
+    ],
+    "application/javascript": [
+      ".js"
+    ],
+    "application/x-python": [
+      ".py"
+    ],
+    "application/java-archive": [
+      ".jar"
+    ],
+    "application/sql": [
+      ".sql"
+    ],
+    "text/css": [
+      ".css"
+    ],
+    "application/jsonld": [
+      ".jsonld"
+    ],
+    "application/rss+xml": [
+      ".rss"
+    ],
+    "application/vnd.oasis.opendocument.text": [
+      ".odt"
+    ],
+    "application/vnd.oasis.opendocument.spreadsheet": [
+      ".ods"
+    ],
+    "application/vnd.oasis.opendocument.presentation": [
+      ".odp"
+    ],
+    "application/vnd.ms-excel": [
+      ".xls"
+    ],
+    "application/vnd.ms-powerpoint": [
+      ".ppt"
+    ],
+    "application/msword": [
+      ".doc"
+    ],
+    "application/vnd.apple.keynote": [
+      ".key"
+    ],
+    "application/vnd.apple.pages": [
+      ".pages"
+    ],
+    "application/vnd.apple.numbers": [
+      ".numbers"
+    ],
+    "application/x-shockwave-flash": [
+      ".swf"
+    ],
+    "application/x-tar": [
+      ".tar"
+    ],
+    "application/gzip": [
+      ".gz"
+    ],
+    "application/x-bzip2": [
+      ".bzip2"
+    ],
+    "application/x-rar-compressed": [
+      ".rar"
+    ],
+    "application/x-7z-compressed": [
+      ".7z"
+    ],
+    "application/vnd.android.package-archive": [
+      ".apk"
+    ],
+    "application/vnd.ms-cab-compressed": [
+      ".cab"
+    ],
+    "application/x-ms-wmz": [
+      ".wmz"
+    ],
+    "application/x-ms-wmd": [
+      ".wmd"
+    ],
+    "application/vnd.mozilla.xul+xml": [
+      ".xul"
+    ],
+    "application/vnd.google-earth.kml+xml": [
+      ".kml"
+    ],
+    "application/vnd.google-earth.kmz": [
+      ".kmz"
+    ],
+    "application/vnd.oasis.opendocument.graphics": [
+      ".odg"
+    ],
+    "application/vnd.oasis.opendocument.formula": [
+      ".odf"
+    ],
+    "application/vnd.oasis.opendocument.database": [
+      ".odb"
+    ],
+    "application/vnd.oasis.opendocument.chart": [
+      ".odc"
+    ],
+    "application/vnd.oasis.opendocument.image": [
+      ".odi"
+    ],
+    "application/vnd.adobe.flash.movie": [
+      ".fla"
+    ],
+    "application/x-debian-package": [
+      ".deb"
+    ],
+    "application/x-rpm": [
+      ".rpm"
+    ],
+    "application/vnd.ms-fontobject": [
+      ".eot"
+    ],
+    "application/font-woff": [
+      ".woff"
+    ],
+    "application/font-woff2": [
+      ".woff2"
+    ],
+    "font/otf": [
+      ".otf"
+    ],
+    "font/ttf": [
+      ".ttf"
+    ],
+    "font/eot": [
+      ".eot"
+    ],
+    "font/woff": [
+      ".woff"
+    ],
+    "font/woff2": [
+      ".woff2"
+    ],
+    "application/vnd.apple.mpegurl": [
+      ".m3u8"
+    ],
+    "audio/x-mpegurl": [
+      ".m3u"
+    ],
+    "video/x-flv": [
+      ".flv"
+    ],
+    "video/x-msvideo": [
+      ".avi"
+    ],
+    "video/x-ms-wmv": [
+      ".wmv"
+    ],
+    "video/x-matroska": [
+      ".mkv"
+    ],
+    "audio/x-matroska": [
+      ".mka"
+    ],
+    "application/x-dvi": [
+      ".dvi"
+    ],
+    "application/x-tex": [
+      ".tex"
+    ],
+    "application/x-latex": [
+      ".latex"
+    ],
+    "application/x-bibtex": [
+      ".bibtex"
+    ],
+    "application/x-sh": [
+      ".sh"
+    ],
+    "application/x-csh": [
+      ".csh"
+    ],
+    "application/x-tcl": [
+      ".tcl"
+    ],
+    "application/x-perl": [
+      ".pl"
+    ],
+    "application/x-php": [
+      ".php"
+    ],
+    "application/x-java-source": [
+      ".java"
+    ],
+    "application/x-ruby": [
+      ".rb"
+    ],
+    "application/x-shellscript": [
+      ".sh"
+    ],
+    "application/x-csrc": [
+      ".c"
+    ],
+    "application/x-c++src": [
+      ".cpp"
+    ],
+    "application/x-patch": [
+      ".patch"
+    ],
+    "application/x-yaml": [
+      ".yaml",
+      ".yml"
+    ],
+    "application/x-tar-gz": [
+      ".tar.gz"
+    ],
+    "application/x-tar-bz2": [
+      ".tar.bz2"
+    ],
+    "application/x-tar-xz": [
+      ".tar.xz"
+    ],
+    "application/x-gzip": [
+      ".gzip"
+    ],
+    "application/x-xz": [
+      ".xz"
+    ],
+    "application/vnd.rar": [
+      ".rar"
+    ],
+    "application/x-apple-diskimage": [
+      ".dmg"
+    ],
+    "application/x-nintendo-nes-rom": [
+      ".nes"
+    ],
+    "application/x-nintendo-snes-rom": [
+      ".snes"
+    ],
+    "application/x-sega-genesis-rom": [
+      ".gen"
+    ],
+    "application/x-ms-shortcut": [
+      ".lnk"
+    ],
+    "application/x-iso9660-image": [
+      ".iso"
+    ]
+  }
