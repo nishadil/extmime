@@ -1,0 +1,19 @@
+{
+    "name": "nishadil/extmime",
+    "description": "PHP package for converting file MIME Type to extension and vice versa.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nishadil\\Extmime\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SandeepKr",
+            "email": "code@sandeepkr.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
