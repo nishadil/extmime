@@ -7,6 +7,7 @@ class Utils{
 
     protected $mimeTypesJson  = "";
     protected $mimeTypes      = "";
+    protected $searchResult   = [];
     protected $libFile        = __DIR__ . "/mime_to_ext.json";
 
     public function __construct() {
@@ -14,7 +15,7 @@ class Utils{
         $this->mimeTypes        = json_decode($this->mimeTypesJson, true);
     }
     
-    public function searchExt(string $extension) : string {
+    public function searchExt(string $extension) : array {
         
         // Check and fix if extension doen't have dot(.) prefix
         $extension = isset($extension[0]) && $extension[0] === '.' ? ".".$extension : $extension;
@@ -22,12 +23,12 @@ class Utils{
         // Search for the MIME type based on the extension
         foreach ($this->mimeTypes as $mimeType => $extensions) {
             if (in_array($extension, (array)$extensions)) {
-                return $mimeType;
+                $this->searchResult[] = $mimeType;
             }
         }
     
         // Return empty string if no match is found
-        return '';
+        return $this->searchResult;
     }
 
 
