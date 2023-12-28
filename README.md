@@ -3,8 +3,7 @@ The "Nishadil\Extmime" PHP package offers a convenient solution for developers s
 
 
 ## How to install
-You can clone this git repo. or can install using composer
-To integrate "Nishadil\Extmime" into your project, simply clone this git repo or use Composer with the following command:
+To integrate "Nishadil\Extmime" into your project, simply clone this git repo or use [Composer](https://getcomposer.org/) with the following command:
 ```bash
 composer require nishadil/extmime
 ```
