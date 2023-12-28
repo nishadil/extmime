@@ -14,9 +14,19 @@
     "application/xml": [
       ".xml"
     ],
+    "application/atom+xml": [
+      ".xml"
+    ],
     "image/jpeg": [
       ".jpg",
       ".jpeg"
+    ],
+    "image/tiff": [
+      ".tif",
+      ".tiff"
+    ],
+    "image/avif": [
+      ".avif"
     ],
     "image/png": [
       ".png"
@@ -27,6 +37,12 @@
     "image/bmp": [
       ".bmp"
     ],
+    "image/svg+xml": [
+      ".svg"
+    ],
+    "image/vnd.microsoft.icon": [
+      ".ico"
+    ],
     "image/webp": [
       ".webp"
     ],
@@ -34,18 +50,37 @@
       ".mp3",
       ".mpeg"
     ],
+    "audio/aac": [
+      ".aac"
+    ],
+    "audio/webm": [
+      ".weba"
+    ],
     "audio/wav": [
       ".wav"
     ],
+    "audio/opus": [
+      ".opus"
+    ],
     "audio/ogg": [
-      ".ogg"
+      ".ogg",
+      ".oga"
+    ],
+    "video/ogg": [
+      ".ogv"
     ],
     "video/mp4": [
       ".mp4",
       ".m4v"
     ],
+    "video/mpeg": [
+      ".mpeg"
+    ],
     "video/webm": [
       ".webm"
+    ],
+    "application/ogg": [
+      ".ogx"
     ],
     "application/pdf": [
       ".pdf"
@@ -53,8 +88,29 @@
     "application/zip": [
       ".zip"
     ],
+    "application/x-cdf": [
+      ".cda"
+    ],
+    "application/x-httpd-php": [
+      ".php"
+    ],
+    "application/x-freearc": [
+      ".arc"
+    ],
+    "application/x-abiword": [
+      ".abw"
+    ],
+    "application/vnd.apple.installer+xml": [
+      ".mpkg"
+    ],
     "application/x-msdownload": [
       ".exe"
+    ],
+    "application/octet-stream": [
+      ".bin"
+    ],
+    "application/vnd.amazon.ebook": [
+      ".azw"
     ],
     "application/vnd.openxmlformats-officedocument.wordprocessingml.document": [
       ".docx"
@@ -80,7 +136,23 @@
     "text/css": [
       ".css"
     ],
+    "text/csv": [
+      ".csv"
+    ],
+    "text/calendar": [
+      ".ics"
+    ],
+    "text/javascript": [
+      ".js",
+      ".mjs"
+    ],
+    "application/xhtml+xml": [
+      ".xhtml"
+    ],
     "application/jsonld": [
+      ".jsonld"
+    ],
+    "application/ld+json": [
       ".jsonld"
     ],
     "application/rss+xml": [
@@ -116,13 +188,20 @@
     "application/x-shockwave-flash": [
       ".swf"
     ],
+    "application/vnd.visio": [
+      ".vsd"
+    ],
     "application/x-tar": [
       ".tar"
     ],
     "application/gzip": [
       ".gz"
     ],
+    "application/x-bzip": [
+      ".bz"
+    ],
     "application/x-bzip2": [
+      ".bz2",
       ".bzip2"
     ],
     "application/x-rar-compressed": [
@@ -179,6 +258,9 @@
     "application/vnd.ms-fontobject": [
       ".eot"
     ],
+    "application/epub+zip": [
+      ".epub"
+    ],
     "application/font-woff": [
       ".woff"
     ],
@@ -206,8 +288,22 @@
     "audio/x-mpegurl": [
       ".m3u"
     ],
+    "audio/midi": [
+      ".midi",
+      ".mid"
+    ],
+    "audio/x-midi": [
+      ".midi",
+      ".mid"
+    ],
     "video/x-flv": [
       ".flv"
+    ],
+    "video/3gpp": [
+      ".3gp"
+    ],
+    "video/3gpp2": [
+      ".3g2"
     ],
     "video/x-msvideo": [
       ".avi"
@@ -217,6 +313,12 @@
     ],
     "video/x-matroska": [
       ".mkv"
+    ],
+    "audio/3gpp": [
+      ".3gp"
+    ],
+    "audio/3gpp2": [
+      ".3g2"
     ],
     "audio/x-matroska": [
       ".mka"
@@ -287,6 +389,9 @@
     ],
     "application/vnd.rar": [
       ".rar"
+    ],
+    "application/rtf": [
+      ".rtf"
     ],
     "application/x-apple-diskimage": [
       ".dmg"
