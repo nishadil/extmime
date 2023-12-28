@@ -4,19 +4,23 @@ namespace Nishadil\Extmime\Utils;
 
 
 class Utils{
+
+    protected $mimeTypesJson  = "";
+    protected $mimeTypes      = "";
+    protected $libFile        = __DIR__ . "/mime_to_ext.json";
+
+    public function __construct() {
+        $this->mimeTypesJson    = file_get_contents($this->libFile);
+        $this->mimeTypes        = json_decode($this->mimeTypesJson, true);
+    }
     
-    function searchExt(string $extension) : string {
+    public function searchExt(string $extension) : string {
+        
         // Check and fix if extension doen't have dot(.) prefix
         $extension = isset($extension[0]) && $extension[0] === '.' ? ".".$extension : $extension;
-
-        // Load mime_types.json file
-        $mimeTypesJson = file_get_contents('mime_types.json');
-    
-        // Decode JSON to associative array
-        $mimeTypes = json_decode($mimeTypesJson, true);
     
         // Search for the MIME type based on the extension
-        foreach ($mimeTypes as $mimeType => $extensions) {
+        foreach ($this->mimeTypes as $mimeType => $extensions) {
             if (in_array($extension, (array)$extensions)) {
                 return $mimeType;
             }
@@ -28,15 +32,10 @@ class Utils{
 
 
 
-    function searchMime( string $mimeType ) : array {
-        // Load mime_types.json file
-        $mimeTypesJson = file_get_contents('mime_types.json');
-    
-        // Decode JSON to associative array
-        $mimeTypes = json_decode($mimeTypesJson, true);
+    public function searchMime( string $mimeType ) : array {
     
         // Search for the extension based on the MIME type
-        foreach ($mimeTypes as $currentMimeType => $extensions) {
+        foreach ($this->mimeTypes as $currentMimeType => $extensions) {
             if ($currentMimeType === $mimeType) {
                 return $extensions;
             }
