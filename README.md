@@ -3,6 +3,12 @@ PHP package for converting file MIME Type to extension and vice versa.
 
 
 
+## How to install
+You can clone this git repo. or can install using composer
+```bash
+composer require nishadil/extmime
+```
+
 ## How to use
 
 
