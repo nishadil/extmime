@@ -4,21 +4,25 @@ namespace Nishadil\Extmime;
 
 use Nishadil\Extmime\Utils\Utils;
 
-class Extmime{
+class Extmime extends Utils{
+
+    public function __construct() {
+        parent::__construct();
+    }
 
     public function getExtension($mimeType) : string {
-        $extensions = Utils::searchMime($mimeType);
+        $extensions = $this->searchMime($mimeType);
         return isset($extensions[0]) ? $extensions[0] : '';
     }
 
 
     public function getAllExtensions($mimeType) : array {
-        return Utils::searchMime($mimeType);
+        return $this->searchMime($mimeType);
     }
 
 
     public function getMimeType($ext) : string {
-        return Utils::searchExt($ext);
+        return $this->searchExt($ext);
     }
 
 }

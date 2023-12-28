@@ -10,10 +10,10 @@
     },
     "authors": [
         {
-            "name": "SandeepKr",
-            "email": "code@sandeepkr.com"
+            "name": "Nishadil.Dev",
+            "email": "opensource@nishadil.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {}
 }
