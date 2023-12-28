@@ -3,7 +3,10 @@ PHP package for converting file MIME Type to extension and vice versa.
 
 
 
-## Get mime type from file extension
+## How to use
+
+
+### Get mime type from file extension
 
 
 ```php
@@ -27,7 +30,7 @@ Output :
 ```
 
 
-## Get extension from file mime type
+### Get extension from file mime type
 
 
 ```php
